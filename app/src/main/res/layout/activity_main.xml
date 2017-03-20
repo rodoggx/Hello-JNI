@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.rodoggx.hellojni.MainActivity">
+
+    <TextView
+        android:id="@+id/main_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/tv_horizontal_padding"/>
+
+    <TextView
+        android:id="@+id/toast_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:background="@android:color/holo_orange_dark"
+        android:gravity="center_vertical"
+        android:textAlignment="center"
+        android:layout_marginBottom="@dimen/tv_horizontal_margin"
+        android:padding="@dimen/tv_horizontal_padding"
+        android:text="@string/toast_str"
+        android:textStyle="bold"
+        android:textAppearance="?android:textAppearanceMedium"/>
+
+    <TextView
+        android:id="@+id/triangle_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:background="@android:color/holo_blue_dark"
+        android:gravity="center_vertical"
+        android:textAlignment="center"
+        android:layout_marginTop="@dimen/tv_horizontal_margin"
+        android:padding="@dimen/tv_horizontal_padding"
+        android:text="@string/triangle_str"
+        android:textStyle="bold"
+        android:textAppearance="?android:textAppearanceMedium"/>
+
+</LinearLayout>

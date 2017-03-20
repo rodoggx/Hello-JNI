@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">JNI with C++</string>
+    <string name="toast_str">Click for Toast</string>
+    <string name="triangle_str">Click for Triangle</string>
+</resources>
